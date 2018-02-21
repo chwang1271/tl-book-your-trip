@@ -1,0 +1,112 @@
+/* =STYLESHEET FOR TL BOOK YOUR TRIP LANDING PAGE 2016 */
+
+/* =LAYOUT DIVS=========================================== */
+#byt { margin: 0; padding: 0; }
+
+/* =CONTENT=========================================== */
+.node-type-genericpage .page-bordered { padding-right: 0 !important; padding-left: 0 !important; padding-top: 0 !important; }
+.node-type-genericpage .basic-article p { margin: 0; -webkit-margin-before: 0; -webkit-margin-after: 0;}
+@media (min-width: 740px) {
+.node-type-genericpage .basic-article__full-width { float: none; width: 100%; }
+}
+.node-type-genericpage .basic-article__full-width > p { display: none; }
+.node-type-genericpage .tag-set { display: none; }
+.byt-container { padding: 0; position: relative; max-width: 1400px; margin: 0 auto; box-sizing: border-box; background: #fff; }
+.byt-container:after { clear: both; content: ""; display: table; }
+.byt-content { margin-bottom: 20px; margin: 0 auto; }
+.byt-hero-banner { background-image: url('http://www.travelandleisure.com/sites/default/files/styles/1600x1000/public/1441683753/JOURNEYS0915-grenadines-bequia.jpg'); height: 350px; position: relative; width: 100%; background-repeat: no-repeat; background-position: center; }
+.byt-tl-logo { text-align: center; padding-top: 100px; }
+.byt-tl-logo img { display: inline; }
+.byt-tl-title { margin: 0 auto; text-align: center; font-size: 3.0rem; text-align: center; font-family: "Quadon Bold",Courier,sans-serif; line-height: 1.2; color: #232323; }
+.byt-tl-title p { background: #fff; padding: 5px 20px; display: inline; }
+
+.byt-header { max-width: 1100px; margin-left: auto; margin-right: auto; margin-top: -70px; padding-top: 20px; padding-bottom: 20px; border-radius: 10px; position: relative; background: #fff; }
+.byt-header-dek { padding: 0 0 15px 0; width: 95%; margin: 0 auto; font-size: 1.4rem; text-align: center; font-family: "Quadon Bold",Courier,sans-serif; line-height: 1.2; }
+.byt-header-arrow { margin: 0 auto; width: 0; height: 0; border-left: 15px solid transparent; border-right: 15px solid transparent; border-top: 15px solid #232323; }
+
+.byt-icons { max-width: 1300px; margin-left: auto; margin-right: auto; border-radius: 10px; position: relative; overflow: hidden; margin: 0 auto; text-align: center; padding-top: 70px; }
+.byt-icons-wrapper { width: 330px; display: inline-block; }
+.byt-icons-body { margin: 0 auto; display: inline-block; padding: 40px 40px 72px 40px; }
+.byt-icons-text { text-decoration: none; font-family: "Flama Book",Helvetica,Arial,sans-serif; font-size: 32px; text-align: center; margin: 10px 0; padding: 2px 22px; line-height: 300px; }
+.byt-icons-text a { text-decoration: none; display: block; padding: 5px 0; }
+.byt-icons-text a:hover { color: #fff; background: #68a29b; }
+.byt-icons-text span { display: block; padding: 5px 0; }
+
+.byt-icons-image { font-family: "Flama Book",Helvetica,Arial,sans-serif; font-size: 32px; margin: 0 auto; display: inline-block; padding: 20px; }
+.byt-icons-image a { color: #232323; position: relative; text-decoration: none;  }
+.byt-icons-image a:hover { color: #fff; background: #68a29b; }
+
+.byt-icons-image a:after {
+    content: "";
+    position: absolute;
+    bottom: 60px;
+    left: 50%; /* centers the left edge */
+    width: 186px; /* set window to see sprite through */
+    height: 186px; /* set window to see sprite through */
+    background-image: url('http://www.travelandleisure.com/sites/default/files/media/book-your-trip/byt-icons-highres.png');
+    background-repeat: no-repeat;
+    margin-left: -93px; /* this centers the actual sprite--this is half the sprite-window width. if you don't do this, the left edge will be centered instead of the center of the sprite.  */
+}
+
+@media (max-width: 739px) {
+  .byt-icons-image a:after { bottom: 50px; }
+}
+
+/* TARGETING FIREFOX BROWSER ONLY */
+@-moz-document url-prefix() {
+  @media (max-width: 739px) {
+    .byt-icons-image a:after { bottom: 50px; }
+  }
+}
+
+.byt-icons-hotels a:after { background-position: -4px -803px; }
+.byt-icons-hotels a:hover:after { background-position: -4px -616px; }
+
+.byt-icons-flights a:after { background-position: -4px -299px; }
+.byt-icons-flights a:hover:after { background-position: -4px -112px; }
+
+.byt-icons-carrentals a:after { background-position: -607px -1308px; }
+.byt-icons-carrentals a:hover:after { background-position: -607px -1121px; }
+
+.byt-icons-tljourneys a:after { background-position: -4px -1813px; }
+.byt-icons-tljourneys a:hover:after { background-position: -4px -1626px; }
+
+.byt-icons-oneclicktrips a:after { background-position: -925px -1812px; }
+.byt-icons-oneclicktrips a:hover:after { background-position: -925px -1625px; }
+
+.byt-icons-traveldeals a:after { background-position: -305px -2812px; }
+.byt-icons-traveldeals a:hover:after { background-position: -305px -2625px; }
+
+.byt-icons-approvedtrips a:after { background-position: -4px -1812px; }
+.byt-icons-approvedtrips a:hover:after { background-position: -4px -1625px; }
+
+.byt-icons-travelagents a:after { background-position: -4px -3299px; }
+.byt-icons-travelagents a:hover:after { background-position: -4px -3112px; }
+
+@media (max-width: 400px) {
+.byt-icons-wrapper { width: 95%; }
+}
+
+@media (min-width: 700px) and (max-width: 739px) {
+.byt-icons-wrapper { width: 49%; }
+}
+
+@media (max-width: 739px) {
+.byt-hero-banner { height: 380px; }
+.byt-tl-logo { padding-top: 150px; }
+.byt-tl-title { font-size: 2.0rem; width: 95%; }
+.byt-header-dek { font-size: 1.4rem; line-height: 1.0; padding: 0 0 15px 0; width: 95%; margin: 0 auto; }
+.byt-icons-image { padding: 5px 20px; }
+}
+
+/*.byt-icons-hotels a { width: 122px; height: 122px; display: block; background-image: url('../images/byt-icons.png'); background-position: 0px -396px; zoom: 1.5; -moz-transform:scale(1.50); -moz-transform-origin: 0 0; text-decoration: none; color: #232323; }
+.byt-icons-hotels a:hover { background-position: 0px -518px; color: #68a29b;}*/
+
+/*.byt-icons-flights a { width: 122px; height: 122px; display: block; background: url('../images/byt-icons.png') no-repeat center; background-position: 0px -70px; zoom: 1.5; -moz-transform:scale(1.50); -moz-transform-origin: 0 0; text-decoration: none; color: #232323; }*/
+/*.byt-icons-flights a:hover { background-position: 0px -192px; color: #68a29b;}*/
+
+/*.byt-icons-hotels a, .byt-icons-flights a, .byt-icons-carrentals a, .byt-icons-tljourneys a, .byt-icons-onceclicktrips a, .byt-icons-traveldeals a, .byt-icons-travelagents a { background-image: url('../images/byt-icons.png'); }*/
+
+/*.byt-icons-hotels { height: 183px; overflow: hidden; }*/
+/*.byt-icons-hotels a { display: block; width: 183px; height: 183px; background-position: 0px -383px; zoom: 1.5; -moz-transform:scale(1.50); -moz-transform-origin: 0 0; text-decoration: none; }
+.byt-icons-hotels a:hover { background-position: 0px -505px; }*/
